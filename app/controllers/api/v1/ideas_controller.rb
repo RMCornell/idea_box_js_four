@@ -15,7 +15,7 @@ class Api::V1::IdeasController < ApplicationController
 
   def update
     idea = Idea.find(params[:id])
-    respond_with idea.update(idea_params)
+    respond_with idea.update(idea_params), location: nil
   end
 
   def destroy

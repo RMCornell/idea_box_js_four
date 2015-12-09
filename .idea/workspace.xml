@@ -5,8 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/odin.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/odin.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/api/v1/ideas_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/api/v1/ideas_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
     </list>
     <ignored path="idea_box_js_four.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,20 +38,20 @@
           <file leaf-file-name="odin.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/assets/javascripts/odin.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7169811">
-                  <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.6226415">
+                  <caret line="149" column="49" selection-start-line="149" selection-start-column="49" selection-end-line="149" selection-end-column="49" />
                   <folding>
-                    <marker date="1449647906000" expanded="true" signature="291:494" placeholder="..." />
-                    <marker date="1449647906000" expanded="true" signature="291:678" placeholder="..." />
-                    <marker date="1449647906000" expanded="true" signature="291:1253" placeholder="..." />
-                    <marker date="1449647906000" expanded="true" signature="291:1263" placeholder="..." />
-                    <marker date="1449647906000" expanded="true" signature="343:376" placeholder="..." />
-                    <marker date="1449647906000" expanded="true" signature="401:432" placeholder="..." />
-                    <marker date="1449647906000" expanded="true" signature="460:494" placeholder="..." />
-                    <marker date="1449647906000" expanded="true" signature="743:1250" placeholder="..." />
-                    <marker date="1449647906000" expanded="true" signature="794:1024" placeholder="..." />
-                    <marker date="1449647906000" expanded="true" signature="794:1063" placeholder="..." />
-                    <marker date="1449647906000" expanded="true" signature="794:1236" placeholder="..." />
+                    <marker date="1449650270000" expanded="true" signature="291:494" placeholder="..." />
+                    <marker date="1449650270000" expanded="true" signature="291:680" placeholder="..." />
+                    <marker date="1449650270000" expanded="true" signature="291:1445" placeholder="..." />
+                    <marker date="1449650270000" expanded="true" signature="291:1455" placeholder="..." />
+                    <marker date="1449650270000" expanded="true" signature="343:376" placeholder="..." />
+                    <marker date="1449650270000" expanded="true" signature="401:432" placeholder="..." />
+                    <marker date="1449650270000" expanded="true" signature="460:494" placeholder="..." />
+                    <marker date="1449650270000" expanded="true" signature="935:1442" placeholder="..." />
+                    <marker date="1449650270000" expanded="true" signature="986:1216" placeholder="..." />
+                    <marker date="1449650270000" expanded="true" signature="986:1255" placeholder="..." />
+                    <marker date="1449650270000" expanded="true" signature="986:1428" placeholder="..." />
                   </folding>
                 </state>
               </provider>
@@ -63,7 +61,7 @@
             <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/ideas_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+                  <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
                   <folding />
                 </state>
               </provider>
@@ -76,8 +74,8 @@
           <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.39215687">
-                  <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.5392157">
+                  <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -619,8 +617,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39215687">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5392157">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -628,27 +626,27 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/ideas_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/odin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7169811">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6226415">
+          <caret line="149" column="49" selection-start-line="149" selection-start-column="49" selection-end-line="149" selection-end-column="49" />
           <folding>
-            <marker date="1449647906000" expanded="true" signature="291:494" placeholder="..." />
-            <marker date="1449647906000" expanded="true" signature="291:678" placeholder="..." />
-            <marker date="1449647906000" expanded="true" signature="291:1253" placeholder="..." />
-            <marker date="1449647906000" expanded="true" signature="291:1263" placeholder="..." />
-            <marker date="1449647906000" expanded="true" signature="343:376" placeholder="..." />
-            <marker date="1449647906000" expanded="true" signature="401:432" placeholder="..." />
-            <marker date="1449647906000" expanded="true" signature="460:494" placeholder="..." />
-            <marker date="1449647906000" expanded="true" signature="743:1250" placeholder="..." />
-            <marker date="1449647906000" expanded="true" signature="794:1024" placeholder="..." />
-            <marker date="1449647906000" expanded="true" signature="794:1063" placeholder="..." />
-            <marker date="1449647906000" expanded="true" signature="794:1236" placeholder="..." />
+            <marker date="1449650270000" expanded="true" signature="291:494" placeholder="..." />
+            <marker date="1449650270000" expanded="true" signature="291:680" placeholder="..." />
+            <marker date="1449650270000" expanded="true" signature="291:1445" placeholder="..." />
+            <marker date="1449650270000" expanded="true" signature="291:1455" placeholder="..." />
+            <marker date="1449650270000" expanded="true" signature="343:376" placeholder="..." />
+            <marker date="1449650270000" expanded="true" signature="401:432" placeholder="..." />
+            <marker date="1449650270000" expanded="true" signature="460:494" placeholder="..." />
+            <marker date="1449650270000" expanded="true" signature="935:1442" placeholder="..." />
+            <marker date="1449650270000" expanded="true" signature="986:1216" placeholder="..." />
+            <marker date="1449650270000" expanded="true" signature="986:1255" placeholder="..." />
+            <marker date="1449650270000" expanded="true" signature="986:1428" placeholder="..." />
           </folding>
         </state>
       </provider>
