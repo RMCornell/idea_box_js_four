@@ -1,4 +1,4 @@
-<section class="main medium-8 medium-centered columns">
+<section class="main medium-6` medium-centered columns">
   <h3>IdeaBox</h3>
   <button class="button tiny" id="createNewIdea">New Idea</button>
 
@@ -7,13 +7,12 @@
       <form id="newIdeaForm" method="post">
         <input type="text" name="idea[title]" placeholder="Title" id="newIdeaTitle">
         <textarea name="idea[body]" placeholder="Description" id="newIdeaBody"></textarea>
+        <h5>Idea Quality</h5>
         <input type="radio" name="idea[quality]" value="Swill"> Swill <input type="radio" name="idea[quality]" value="Plausible"> Plausible <input type="radio" name="idea[quality]" value="Genius"> Genius<br>
         <input type="submit" value="Create" id="newIdeaSubmit" class="tiny button">
 
       </form>
     </div>
-
-
 
   <div id="currentIdeas"></div>
 
