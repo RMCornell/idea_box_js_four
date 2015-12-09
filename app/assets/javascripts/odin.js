@@ -21,8 +21,10 @@ function renderNewIdeaCard(data) {
       + data.quality
     + "</p>"
 
-    +"<button class='tiny' id='edit-" + data.id +"'>Edit Idea #" + data.id + "</button>"
-    +"<button class='tiny' id='delete-" + data.id + "'>Delete Idea #" + data.id + "</button>"
+    +"<button class='tiny' id='edit-" + data.id +"'>Edit Idea # " + data.id + "</button>"
+    +"<button class='tiny' id='delete-" + data.id + "'>Delete Idea # " + data.id + "</button>"
+    +"<button class='tiny' id='upvote-" + data.id +"'>Upvote Idea# " + data.id + "</button>"
+    +"<button class='tiny' id='downvote-" + data.id +"'>Downvote Idea# " + data.id + "</button>"
 
     +"<div class='hidden' id='renderEditForm-" + data.id + "'>"
       + "<form id='editIdeaForm-" + data.id + "'>"
@@ -60,6 +62,8 @@ function getIdeas() {
         renderUpdateForm(data);
         confirmEdit(data);
         deleteIdea(data);
+        increaseQuality(data);
+        decreaseQuality(data);
       })
     }
   })
@@ -84,6 +88,8 @@ function createNewIdea() {
         renderUpdateForm(data);
         confirmEdit(data);
         deleteIdea(data);
+        increaseQuality(data);
+        decreaseQuality(data)
       }
     })
   })
@@ -127,9 +133,57 @@ function confirmEdit(idea) {
         console.log(idea.id + " Updated!");
         $("#editForm-" + idea.id).toggleClass('hidden');
       }
-
     })
   });
+}
+
+// Change Quality of Idea
+
+function increaseQuality(idea) {
+  $('#upvote-' + idea.id).on("click", function() {
+
+    if(idea.quality == "Swill") {
+      details = {idea: {quality: "Plausible" } };
+    } else if(idea.quality == "Plausible") {
+      details = {idea: {quality: "Genius" } };
+    } else {
+      details = {idea: { quality: idea.quality } }
+    }
+
+    $.ajax({
+      type: "PUT",
+      url: "/api/v1/ideas/" + idea.id,
+      data: details,
+      dataType: "JSON",
+      success: function() {
+      console.log("Idea Quality Updated!");
+      window.location.reload();
+    }
+    })
+  })
+}
+
+function decreaseQuality(idea) {
+  $('#downvote-' + idea.id).on('click', function() {
+    if(idea.quality == "Genius") {
+      details = {idea: { quality: "Plausible" } };
+    } else if(idea.quality == "Plausible") {
+      details = {idea: { quality: "Swill" } };
+    } else {
+      details = {idea: { quality: idea.quality } }
+    }
+
+    $.ajax({
+      type: "PUT",
+      url: "/api/v1/ideas/" + idea.id,
+      data: details,
+      dataType: "JSON",
+      success: function() {
+        console.log("Idea Quality Updated!");
+        window.location.reload();
+      }
+    })
+  })
 }
 
 
